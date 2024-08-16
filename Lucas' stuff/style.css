@@ -1,0 +1,46 @@
+nav {
+    background-color: lightcoral;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+ }
+ #imgo{
+    width: 20px;
+    height: 10px;
+ }
+ div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 22px;
+    padding: 5px;
+ }
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    font-size: medium;
+}
+#t{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 400px;
+        height: 250px;
+    }
+}
+#proj{
+
+    img{
+        width: 200px;
+        height: 100px;
+    }
+}
+#x{
+    justify-content: space-around;
+}
+.items:hover {
+    background-color: gray;
+    opacity: 0.5;
+}

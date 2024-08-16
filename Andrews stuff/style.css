@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+nav{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.pictures_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+img{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+}
+
+h6{
+    size: 2;
+}
+
+.future_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-left: 20px;
+    border-right: 20px;
+}
+

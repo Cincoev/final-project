@@ -1,0 +1,39 @@
+div {
+    font-family: Helvetica;; 		
+ color: white;; 	
+ font-size: 32px;; 	
+ padding: 5px;;
+}
+nav {
+    background-color: gray;; 
+    padding: 5px;; 
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+color: white
+}
+img {
+width: 400px;
+display: flex;
+margin-left: 900px;
+margin-top: -400px;
+}
+.items:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+body {
+    background-color: black;
+}
+p {
+ color: white;
+display:flex;
+width: 700px;
+font-size: x-large;
+}
+a {
+    text-decoration:none;
+color: white;
+}

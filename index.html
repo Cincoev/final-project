@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Changer</title>
+    <style>
+        /* Initial styles */
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .nav_items {
+            color: white;
+        }
+
+        .main {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="GG">
+        <header>
+            <nav class="main">
+                <div class="left_nav_items">
+                    <button id="theme">Theme Changer</button>
+                </div>
+                <script>
+                    let buttonref = document.getElementById("theme");
+                    let divref = document.querySelector("body");
+                    let navref = document.getElementsByClassName("nav_items");
+                    let main = document.getElementsByClassName('main');
+            
+                    buttonref.onclick = function () {
+                        if (divref.style.backgroundColor === 'black') {
+                            divref.style.backgroundColor = 'white';
+                            divref.style.color = 'black'; // Ensure text is visible
+            
+                            for (let i = 0; i < navref.length; i++) {
+                                navref[i].style.color = 'black';
+                            }
+                            for (let i = 0; i < main.length; i++) {
+                                main[i].style.color = 'black';
+                            }
+                        } else {
+                            divref.style.backgroundColor = 'black';
+                            divref.style.color = 'white';
+            
+                            for (let i = 0; i < navref.length; i++) {
+                                navref[i].style.color = 'white';
+                            }
+                            for (let i = 0; i < main.length; i++) {
+                                main[i].style.color = 'white';
+                            }
+                        }
+                    };
+                </script>
+            
+                <div class="right_nav_items">
+                    <img class="logo" src ="images/image2.png">
+                    <a href="">
+                        <div class="nav_items">Andrew</div>
+                    </a>
+                    <a href="/project" target="_blank">
+                        <div class="nav_items">Eddie</div>
+                    </a>
+                    <a href="https://icebeluga.github.io/project_me/">
+                        <div class="nav_items">Johnson</div>
+                    </a>
+                    <a href="">
+                        <div class="nav_items">Kobe</div>
+                    </a>
+                    <a href="https://lucassilvast.github.io/my_portfolio/" target="_blank">
+                        <div class="nav_items">Lucas</div>
+                    </a>
+                </div>
+            </nav>
+    </div>
+</header>
+
+<hr id="bold_line">
+
+<!--MAIN SECGTION-->
+
+<section class="About_Us">
+    <div>
+
+    </div>
+    <div class="container1">
+        <div class="about_us_info">
+            <h2>About Us</h2>
+            <p class="text">We are group 4 including members Kobe, Lucas, Jonhson, Eddie, and Andrew. We all Joined ASC where
+                we learned a diverse amount of coding and programming javascript, HTML, and CSS in this program we learned valuable life skills
+                necessary for the computer science industry.
+                Before we joined this program we had no knowledge
+                of coding. Now, we can make our own personal projects and demonstrate our creativity through this website.
+                On this website, we used all the skills we learned so far in this program.
+
+            </p>
+
+
+    
+        </div>
+    </div>
+</section>
+
+<!--All ARE PROFILES------->
+<section class="Team">
+    
+    <!--Andrew-->
+    <div class="personal_account">
+        <img class="headshot" src="images/image.png">
+        <h2 class="name">Andrew</h2>
+        <p> Huntandrew540@gmail.com</p>
+    </div>
+
+    <!--Eddie-->
+    <div class="personal_account">
+        <img class="headshot" src="images/project.png">
+        <h2 class="name">Eddie</h2>
+        <p> eddiegravelyv@gmail.com</p>
+    </div>
+
+    <!--Johnson-->
+    <div class="personal_account">
+        <img class="headshot" src="/images/Johnson.png">
+        <h2 class="name">Johnson</h2>
+        <p> johnsonl27@gmail.com</p>
+
+    </div>
+
+    <!--Kobe-->
+    <div class="personal_account">
+        <img class="headshot" src="images/Kobe.png">
+        <h2 class="name">Kobe</h2>
+        <p>kobeajani16@gmail.com</p>
+
+    </div>
+
+    <!--Lucas-->
+    <div class="personal_account">
+        <img class="headshot" src="/images/Me.jpg">
+        <h2 class="name">Lucas</h2>
+        <p>lucasfesilva2009@gmail.com</p>
+
+    </div>
+
+    <!--
+                <div class="personal_account">
+            <img src="">
+            <h2 class="name">Name</h2>
+
+            <p>Paragraph</p>
+                
+            <div class="projects_container">
+
+            </div>
+
+            <div class="contact_container">
+                <a href="" target="_blank"><img class="profile_image" src="/images/GitHub.png"></a>
+                <a href="" target="_blank"><img class="profile_image" src="/images/instagram.png"></a>
+                <a href="" target="_blank"><img class="profile_image" src="/images/linkedin.png"></a>
+            </div>
+        </div>
+        -->
+</section>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>

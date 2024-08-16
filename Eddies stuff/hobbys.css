@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+img {
+    width: 200px;
+}
+p {
+   display:flex;
+    color: white;
+    font-size: x-large;
+    width: 500px
+}
+

@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Space Mono", monospace;
+    margin: 15px;
+}
+
+/*NAVIGATON BAR*/
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 0px;
+    padding: 1px;
+}
+
+.nav_items{
+    color: white;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: 700;
+    height: 92px;
+    letter-spacing: .1em;
+    line-height: 92px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.left_nav_items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 .5 auto;
+}
+
+.right_nav_items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: .25 .25 auto;
+}
+
+#bold_line{
+    border-bottom: 1px solid #000000;
+    margin: 15px;
+}
+
+/*MAIN SECTION*/
+
+/*About Us*/
+.About_Us{
+    display: flex;
+    border: 10px solid rgb(232, 107, 107);
+    margin: 15px;
+}
+
+.container1{
+    display: flex;
+}
+
+.about_us_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 15px;
+}
+
+/*Team*/
+
+.Team{
+    margin: 15px;
+    display: flex;
+    height:auto;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.personal_account{
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    justify-items: center;
+}
+
+.headshot{
+    padding-top: 5px;
+    max-width: 80%;
+}
+
+.name{
+    align-self: center;
+    max-height: 10px;
+    margin-top: 0;
+}
+
+.profile_image{
+    display: flex;
+    width: 120px;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid slateblue;
+}
+
+img {
+    width: 140px;
+    height: auto;
+    border: 5px solid rgb(232, 107, 107);
+}
+
+a:hover{
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+}
